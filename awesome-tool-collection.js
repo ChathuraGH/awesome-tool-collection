@@ -22,7 +22,7 @@ function loadjscssfile(filename, filetype){
 //source 
 // https://stackoverflow.com/questions/5751620/ways-to-add-javascript-files-dynamically-in-a-page
 // https://stackoverflow.com/a/5762713/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 //Split the string with the spread ... operator instead of .split(''):
 
@@ -46,7 +46,7 @@ function loadjscssfile(filename, filetype){
 //source 
 // https://stackoverflow.com/questions/19480916/count-number-of-occurrences-for-each-char-in-a-string
 // https://stackoverflow.com/a/68402128/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -63,7 +63,7 @@ function Char_Count(str1) {
 //source 
 // https://stackoverflow.com/questions/19480916/count-number-of-occurrences-for-each-char-in-a-string
 // https://stackoverflow.com/a/46297978/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -91,7 +91,7 @@ function countChrOccurence ('hello') {
 //source 
 // https://stackoverflow.com/questions/19480916/count-number-of-occurrences-for-each-char-in-a-string
 // https://stackoverflow.com/a/62781405/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 
 function countChar(str) {
@@ -108,7 +108,7 @@ var charCount = countChar('abcceddd');
 //source 
 // https://stackoverflow.com/questions/19480916/count-number-of-occurrences-for-each-char-in-a-string
 // https://stackoverflow.com/a/67044262/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 let str = "atul kumar srivastava";
 let obj ={};
@@ -120,7 +120,7 @@ console.log(obj)
 //source 
 // https://stackoverflow.com/questions/19480916/count-number-of-occurrences-for-each-char-in-a-string
 // https://stackoverflow.com/a/60648545/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -185,7 +185,7 @@ console.log(biggestElemsArr);
 //source
 // https://stackoverflow.com/questions/25500316/sort-a-dictionary-by-value-in-javascript
 // https://stackoverflow.com/a/75086038/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -204,7 +204,7 @@ const sortObjectByValues = (dict: { [key: string]: number }, direction: 'asc'| '
 //source 
 // https://stackoverflow.com/questions/25500316/sort-a-dictionary-by-value-in-javascript
 // https://stackoverflow.com/a/74380445/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 
 function sortObj(obj) {
@@ -217,7 +217,7 @@ function sortObj(obj) {
 //source 
 //https://stackoverflow.com/questions/25500316/sort-a-dictionary-by-value-in-javascript
 //https://stackoverflow.com/a/74250133/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 function withAMap(str) {
     // A map for the character=>count mappings
@@ -284,7 +284,7 @@ withAnObject(str);
 //source
 //https://stackoverflow.com/questions/19480916/count-number-of-occurrences-for-each-char-in-a-string
 //https://stackoverflow.com/a/19480979/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 
 let s = 'hello';
@@ -298,7 +298,7 @@ console.log(result); // {h: 1, e: 1, l: 2, o: 1}
 //source
 // https://stackoverflow.com/questions/19480916/count-number-of-occurrences-for-each-char-in-a-string
 // https://stackoverflow.com/a/55540351/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 
 class DictUtils {
@@ -358,7 +358,7 @@ console.log(sorted);
 //source
 // https://stackoverflow.com/questions/25500316/sort-a-dictionary-by-value-in-javascript
 // https://stackoverflow.com/a/69642627/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 
 function sort_object(obj) {
@@ -396,7 +396,7 @@ console.log(res)
 //source
 //https://stackoverflow.com/questions/25500316/sort-a-dictionary-by-value-in-javascript
 //https://stackoverflow.com/a/53530097/13861187
-
+//////////////////////////////////////////////////////////////////////////////////
 
 //var dict = {
 //  "x": 1,
