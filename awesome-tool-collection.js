@@ -109,11 +109,15 @@ var charCount = countChar('abcceddd');
 // https://stackoverflow.com/questions/19480916/count-number-of-occurrences-for-each-char-in-a-string
 // https://stackoverflow.com/a/67044262/13861187
 //////////////////////////////////////////////////////////////////////////////////
+function OccCounter(str){
+//let str = "atul kumar srivastava";
+ let obj ={};
+ for(let s of str)if(!obj[s])obj[s] = 1;else obj[s] = obj[s]  + 1;
+ return obj
+ 
+}
 
-let str = "atul kumar srivastava";
-let obj ={};
-for(let s of str)if(!obj[s])obj[s] = 1;else obj[s] = obj[s]  + 1;
-console.log(obj)
+//console.log(obj)
 
 
 
@@ -344,16 +348,16 @@ class SortFunctions {
 
 }
 
-let dict = {
-    "jack": 10,
-    "joe": 20,
-    "nick": 8,
-    "sare": 12
-}
+//let dict = {
+//    "jack": 10,
+//    "joe": 20,
+//    "nick": 8,
+//    "sare": 12
+//}
 
-let sorted = DictUtils.sort(dict, SortFunctions.byValueDescending)
+//let sorted = DictUtils.sort(dict, SortFunctions.byValueDescending)
 
-console.log(sorted);
+//console.log(sorted);
 
 //source
 // https://stackoverflow.com/questions/25500316/sort-a-dictionary-by-value-in-javascript
@@ -378,20 +382,20 @@ function sort_object(obj) {
 }
 
 
-dict = {
-  "x" : 1,
-  "y" : 6,
-  "z" : 9,
-  "a" : 5,
-  "b" : 7,
-  "c" : 11,
-  "d" : 17,
-  "t" : 3
-};
+//dict = {
+//  "x" : 1,
+//  "y" : 6,
+//  "z" : 9,
+//  "a" : 5,
+//  "b" : 7,
+//  "c" : 11,
+//  "d" : 17,
+//  "t" : 3
+//};
 
-res = sort_object(dict)
+//res = sort_object(dict)
 
-console.log(res) 
+//console.log(res) 
 
 //source
 //https://stackoverflow.com/questions/25500316/sort-a-dictionary-by-value-in-javascript
